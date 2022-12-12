@@ -9,7 +9,7 @@ env:
   GITHUB_EMAIL: ${{ secrets.GITHUBS_EMAIL }}
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     timeout-minutes: 5
 
     steps:
